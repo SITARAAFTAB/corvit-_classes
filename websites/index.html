@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @font-face {
+            font-family: 'orange';
+            src: url("assets/fonts/orangeFont.ttf");
+        }
+        
+        .heading{
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'orange';
+        }
+
+        @font-face {
+            font-family: 'motion';
+            src: url("assets/fonts/MotionPicture_PersonalUseOnly.ttf");
+        }
+        .heading1{
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'motion';
+        }
         .parent{
             position: relative;
             width: 100%;
@@ -21,12 +41,16 @@
             right: 70px;
             width: 570px;
         }
+
     </style>
 </head>
 <body>
     <div class="parent">
         <img  class="b_img" src="assets/images/header_background.png">
         <img  class="h_img" src="assets/images/header.png">
+
+        <div class="heading">Burgers That Love The Earth</div>
+        <div class="heading1">Burgers That Love The Earth</div>
     </div>
 </body>
 </html>
