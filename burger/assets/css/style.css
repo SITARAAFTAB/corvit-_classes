@@ -1,0 +1,18 @@
+*{
+    font-family: "Poppins";
+}
+/* use deg as well */
+/* underscore is not used in bootstrap */
+.bg_color{
+    background: linear-gradient(to right,#FFA453,#FFD0A7);
+}
+.heading{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 600;
+}
+.design{
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
