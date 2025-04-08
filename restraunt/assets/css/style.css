@@ -1,15 +1,25 @@
+body{
+    font-family: "Inter";
+}
+
 .bg_image{
     background-image: url(../images/bg_img.png);
     height: 100vh;
     background-size: cover;
+    background-position: center;
 }
 .heading{
-    font-family: "Inter";
     font-size: 4.3rem;
     color: rgba(255, 255, 255, 0.7);
 }
 .left-side{
     height: 80vh;
+}
+.product_bg{
+   background-color: rgba(255, 255, 255, 0.2);
+   border-top-left-radius: 2rem;
+   border-top-right-radius: 2rem;
+   backdrop-filter: blur(8px);
 }
 
 
