@@ -1,3 +1,23 @@
-.bg_color{
-    background: linear-gradient(to top,#F54748,#ffff);
+body {
+    background: linear-gradient(to right, white, #eed4d4);
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../font/Sofia\ Pro\ Bold\ Az.otf");
+}
+
+.bg_color {
+    font-family: "Inter";
+    background-color: rgb(247, 221, 226);
+    width: 20vh;
+}
+
+.font {
+    font-family: "Sofia Pro";
+    font-size: 4rem;
+}
+
+.text {
+    font-size: 1.6rem;
 }
