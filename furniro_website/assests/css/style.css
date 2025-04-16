@@ -1,0 +1,54 @@
+/* .body{
+    font-family: "Poppins";
+} */
+ @font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins-Bold.ttf);
+ }
+ @font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins-SemiBold.ttf);
+ }
+ @font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins-Medium.ttf);
+ }
+.nav_design{
+    font-weight: 600;
+}
+.overlap_div{
+    background-color: #FFF3E3;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    margin: 200px 200px;
+    float: right;
+}
+.font_design{
+    font-family: "poppins";
+}
+.font_design1{
+    color: #B88E2F;
+    font-family: "poppins";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.font_design2{
+    font-family: "poppins";
+    font-size: 0.9rem;
+}
+.bg_design{
+    position: absolute;
+    z-index: -1;
+    /* width: 100%; */
+}
+ .buy_btn{
+    background-color: #B88E2F;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding:15px 50px;
+ }
+ .next_font{
+    font-family: "poppins";
+ }

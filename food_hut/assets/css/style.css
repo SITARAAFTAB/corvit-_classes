@@ -21,3 +21,13 @@ body {
 .text {
     font-size: 1.6rem;
 }
+.search_bar{
+    border: none;
+    box-shadow: none;
+}
+@media (max-width:786px) {
+    .font{
+        font-size: 3rem;
+    }
+    
+}

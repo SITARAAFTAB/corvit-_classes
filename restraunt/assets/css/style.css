@@ -21,5 +21,9 @@ body{
    border-top-right-radius: 2rem;
    backdrop-filter: blur(8px);
 }
+.nav_design{
+    color: rgba(255, 255, 255, 0.7);
+}
+
 
 
