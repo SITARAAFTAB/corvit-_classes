@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Food</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+
+            <!-- First nav (location)-->
+            <nav class="py-2 border-bottom">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        <i class="bi bi-geo-alt"></i>
+                        Store Location: Lincoln-344, Illinois, Chicago, USA
+                    </div>
+                    <div class="col-12 col-md-6  text-center text-md-end">
+                        <select name="Language" class=" nav1-select me-2">
+                            <option value="Eng">Eng</option>
+                            <option value="Urdu">Urdu</option>
+                        </select>
+                        <select name="Currency" class="nav1-select">
+                            <option value="USD">USD</option>
+                            <option value="PKR">PKR</option>
+                        </select>
+                    </div>
+                </div>
+            </nav>
+            <!-- Second nav(nav-brand) -->
+            <nav class="py-3 border-bottom">
+                <div class="row align-items-center">
+
+                    <!-- Logo + Title -->
+                    <div class="col-6 col-md-2 d-flex align-items-center">
+                        <img src="assets/images/plant.jpg" alt="plant-icon" class="img-fluid p-2"
+                            style="max-height: 50px;">
+                        <h1 class="h4 mb-0 ms-2">Ecobazar</h1>
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="col-12 col-md-6 my-3 my-md-0">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button type="button" class="btn btn-success">Search</button>
+                        </div>
+                    </div>
+
+                    <!-- Customer Service -->
+                    <div class="col-6 col-md-4 d-flex align-items-center justify-content-end">
+                        <img src="assets/images/PhoneCall.png" alt="phone-icon" class="img-fluid"
+                            style="max-height: 50px;">
+                        <div class="d-flex flex-column ms-2">
+                            <span class="small">Customer Service</span>
+                            <span class="fw-bold">(219) 555-0114</span>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- third nav(home) -->
+            <nav class="navbar navbar-expand-lg navbar-custom px-3">
+                <button class="category-btn d-flex align-items-center me-2">
+                  <i class="fas fa-bars me-2"></i> All Categories <i class="fas fa-chevron-down ms-2"></i>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="d-flex align-items-center">
+                  <button class="icon-btn"><i class="far fa-heart"></i></button>
+                  <button class="icon-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge">2</span>
+                  </button>
+                  <button class="icon-btn"><i class="far fa-user"></i></button>
+                </div>
+              </nav>
+        </header>
+        <!-- menu appera -->
+        <div class="row">
+            <div class="col-3">
+            </div>
+
+            <!-- slider -->
+            <div class="col-9 mt-5">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/Bannar.png" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Bannar.png" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Bannar.png" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 columns with images -->
+            <div class="row mt-3 border-bottom py-2">
+                <div class="col-3 d-flex align-items-center">
+                    <img src="assets/images/1 (1).png" alt="" class="img-fluid">
+                    <div>
+                        <div class="design_1">Free Shipping</div>
+                        <div class="design_2">Free shipping with discount</div>
+                    </div>
+                </div>
+
+                <div class="col-3 d-flex align-items-center">
+                    <img src="assets/images/1 (2).png" alt="" class="img-fluid">
+                    <div>
+                        <div class="design_1">Great Support 24/7</div>
+                        <div class="design_2">Instant access to Contact</div>
+                    </div>
+                </div>
+
+                <div class="col-3 d-flex align-items-center">
+                    <img src="assets/images/1 (4).png" alt="" class="img-fluid">
+                    <div>
+                        <div class="design_1">100% Sucure Payment</div>
+                        <div class="design_2">We ensure your money is save</div>
+                    </div>
+                </div>
+
+                <div class="col-3 d-flex align-items-center">
+                    <img src="assets/images/1 (3).png" alt="" class="img-fluid">
+                    <div>
+                        <div class="design_1">Money-Back Guarantee</div>
+                        <div class="design_2">30 days money-back</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-4">
+                    <div class="sale-banner">
+                        <img src="assets/images/blue.png" alt="Sale Banner"> 
+                        <div class="overlay">
+                            <h4>BEST DEALS</h4>
+                            <h1>Sale of the Month</h1>
+                            <div class="countdown">
+                                <div><strong>00</strong><br><span>DAYS</span></div>
+                                <div><strong>02</strong><br><span>HOURS</span></div>
+                                <div><strong>18</strong><br><span>MINS</span></div>
+                                <div><strong>46</strong><br><span>SECS</span></div>
+                            </div>
+                            <button class="btn btn-light text-success border rounded-pill shop">Shop Now
+                                <i class="bi bi-arrow-right text-success "></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="assets/images/black.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-4">
+                    <img src="assets/images/mustard.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
